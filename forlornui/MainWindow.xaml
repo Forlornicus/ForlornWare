@@ -1,0 +1,21 @@
+﻿<Window x:Class="forlornui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:forlornui"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Execute" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Height="36" Width="139" FontSize="15" Click="Button_Click_2"/>
+        <Button Content="Inject" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Height="36" Width="139" FontSize="15" Click="Button_Click"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="154,0,0,10" VerticalAlignment="Bottom" Height="36" Width="139" FontSize="15" Click="Button_Click_1"/>
+        <RichTextBox x:Name="editor" Margin="10,10,10,51" FontSize="15" VerticalScrollBarVisibility="Visible" TextChanged="Editor_TextChanged" AcceptsTab="True">
+            <FlowDocument>
+                <Paragraph LineHeight="2">
+                    <Run Text="printidentity()"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>
