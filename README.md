@@ -3,9 +3,6 @@
 ForlornWare is a clean and lightweight executor base made for Roblox.  
 It is designed to be reliable, minimal, and easy to extend.
 
-# THIS IS MADE FOR EDUCATIONAL PURPOSES ONLY!
-# I AM NOT LIABLE FOR ANY DAMAGES CAUSED BY THIS EDUCATIONAL CHEAT!
-
 ## Features
 
 - Full Luau execution
@@ -14,3 +11,6 @@ It is designed to be reliable, minimal, and easy to extend.
 - Simple modern UI layout
 
 ForlornWare is intended for users who want a solid foundation for custom exploit development without unnecessary complexity.
+
+## THIS IS MADE FOR EDUCATIONAL PURPOSES ONLY!
+## I AM NOT LIABLE FOR ANY DAMAGES CAUSED BY THIS EDUCATIONAL CHEAT!
